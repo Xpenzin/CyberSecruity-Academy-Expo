@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who Am I Online? - Cyber Identity Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="matrixCanvas" class="matrix-rain"></canvas>
+    <div class="theme-toggle">
+        <button id="themeBtn" class="theme-btn" aria-label="Toggle dark mode">🌙</button>
+    </div>
+
+    <div class="container">
+        <!-- Welcome Screen -->
+        <div id="welcomeScreen" class="screen active">
+            <div class="welcome-content">
+                <div class="icon">🌐</div>
+                <h1>Who Am I Online?</h1>
+                <h2>Cyber Identity Quiz</h2>
+                <p class="description">Discover what your online habits reveal about your digital identity. This quick quiz will help you understand your cybersecurity awareness and suggest ways to improve your digital safety.</p>
+                <div class="quiz-info">
+                    <div class="info-item">
+                        <span class="info-number">9</span>
+                        <span class="info-label">Questions</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-number">~5</span>
+                        <span class="info-label">Minutes</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-number">4</span>
+                        <span class="info-label">Personas</span>
+                    </div>
+                </div>
+                <button id="startBtn" class="btn btn-primary">Start Quiz</button>
+            </div>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quizScreen" class="screen">
+            <div class="quiz-header">
+                <div class="progress-info">
+                    <span id="questionCounter">Question 1 of 9</span>
+                    <span id="categoryLabel" class="category-label"></span>
+                </div>
+                <div class="progress-bar">
+                    <div id="progressFill" class="progress-fill"></div>
+                </div>
+            </div>
+
+            <div class="quiz-content">
+                <h3 id="questionTitle" class="question-title"></h3>
+                <div id="answersContainer" class="answers-container">
+                    <!-- Answers will be generated here -->
+                </div>
+            </div>
+
+            <div class="quiz-footer">
+                <button id="prevBtn" class="btn btn-secondary" style="display: none;">← Previous</button>
+                <button id="nextBtn" class="btn btn-primary" disabled>Next →</button>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="resultsScreen" class="screen">
+            <div class="results-content">
+                <div class="result-icon" id="resultIcon"></div>
+                <h2 id="personaTitle" class="persona-title"></h2>
+                <p id="personaDescription" class="persona-description"></p>
+                
+                <span id="scoreText" class="score-text"></span>
+                <div class="score-display">
+                    <div class="score-circle">
+                        <span id="scoreValue" class="score-value">0</span>
+                        <span class="score-max">/27</span>
+                    </div>
+                </div>
+                
+                <div class="tips-section">
+                    <h3>Tips to Improve:</h3>
+                    <ul id="tipsList" class="tips-list">
+                        <!-- Tips will be generated here -->
+                    </ul>
+                </div>
+
+                <button id="retakeBtn" class="btn btn-primary">Retake Quiz</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="matrix.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
