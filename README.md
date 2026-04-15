@@ -3,7 +3,7 @@ This is a small website quiz for my 11th-grade Cybersecurity CTE academy expo.
 <br>
 <br>
 
-**What is this about??**
+**What is this webpage about??**
 
 # 🌐 Who Am I Online? | Cyber Identity Quiz
 
@@ -24,11 +24,11 @@ An engaging, gamified cybersecurity assessment that transforms boring security a
 
 Navigate through questions about your digital footprint, security habits, and social media behavior. Watch your score build, discover where you stand, and learn how to protect yourself—all in under 5 minutes.
 
-**Built with:** Pure HTML/CSS/JS
+**Built with:** HTML/CSS/JS
 
 ---
 
-*Because everyone deserves to know how visible they really are online.*
+*Everyone deserves to know how visible they really are online.*
 
 
 
