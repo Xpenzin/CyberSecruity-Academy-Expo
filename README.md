@@ -13,7 +13,7 @@ An engaging, gamified cybersecurity assessment that transforms boring security a
 
 ##  What Makes This Special:
 
--  **4 Dynamic Personas** – From "The Open Book" (yikes!) to "The Ghost" (master of stealth)
+-  **4 Dynamic Personas** – From "The Open Book" to "The Ghost." 
 -  **Smart Scoring System** – 9 carefully crafted questions across 3 critical categories
 -  **Personalized Action Plans** – Get tailored security tips based on YOUR habits
 -  **Dual Theme Experience** – Seamless dark/light mode with Matrix-rain aesthetic
