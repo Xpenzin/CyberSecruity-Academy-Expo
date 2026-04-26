@@ -1,4 +1,4 @@
-This is a small website quiz for my 11th-grade Cybersecurity CTE academy expo.
+**A small website quiz for my 11th-grade Cybersecurity CTE academy expo.**
 
 <br>
 <br>
