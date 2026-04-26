@@ -1,10 +1,7 @@
-**A small website quiz for my 11th-grade Cybersecurity CTE academy expo.**
-
-<br>
-<br>
 
 **What is this webpage about??**
-
+**A small website quiz for my 11th-grade Cybersecurity CTE academy expo.**
+</br>
 # 🌐 Who Am I Online? | Cyber Identity Quiz
 
 **Uncover your digital shadow. Are you an Open Book or a Ghost?**
